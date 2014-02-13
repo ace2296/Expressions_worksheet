@@ -24,9 +24,22 @@ var portion = slices * pizzas / people;
 //Print Result
 console.log("Each person ate " + portion + " " + "slices of pizza at the party.");
 
+
 //PROBLEM 3: Calculate how many left over slices Sparky will eat
 
 var sparkySlices = slices * pizzas % people;
 
 console.log("Sparky got " + sparkySlices + " " + "slices of pizza.");
+
+
+//PROBLEM 4: Calculate the average amount spent on groceries over the past 5 weeks.
+
+//Amount spent over 5 weeks
+var spent = [167 , 129 , 202 , 130 , 142];
+
+var total = spent[0] + spent[1] + spent[2] + spent[3] + spent[4];
+
+var average = total / 5;
+
+console.log("You have spent a total of $" + total + " " + "on groceries over 5 weeks. That is an average of $" + average + " " + "per week.");
 
