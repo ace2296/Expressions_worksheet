@@ -13,7 +13,14 @@ console.log("Spark is " + humanY + " " + "human years old which is " + dogY + " 
 
 //# of slices each pizza has
 var slices = 16;
-//# of peopel at the party
+//# of people at the party
 var people = 50;
 //# of pizzas ordered
 var pizzas = 12;
+
+//Result of how many slices of pizza each person will receive
+var portion = slices * pizzas / people;
+
+//Print Result
+console.log("Each person ate " + portion + " " + "slices of pizza at the party.");
+
